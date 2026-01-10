@@ -1,0 +1,40 @@
+:root {
+  /* Base surfaces */
+  --bg-page: #f6f8fb;
+  --bg-card: #ffffff;
+  --bg-subtle: #f1f5f9;
+
+  /* Borders */
+  --border-subtle: #e2e8f0;
+
+  /* Text */
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+
+  /* Accent (institutional blue) */
+  --accent: #1e3a8a;
+  --accent-soft: #e0e7ff;
+
+  /* Status */
+  --status-draft: #64748b;
+  --status-submitted: #2563eb;
+  --status-published: #1e3a8a;
+
+  /* Spacing */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+
+  /* Motion */
+  --transition-fast: 140ms ease;
+  --transition-medium: 220ms ease;
+}

@@ -1,0 +1,7 @@
+.filter {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  font-size: 14px;
+  background: var(--bg-card);
+}
