@@ -24,3 +24,23 @@
   color: var(--text-muted);
   cursor: pointer;
 }
+.navbar {
+  height: 68px;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 0 var(--space-48);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navbar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: var(--space-48);
+  width: 48px;
+  height: 2px;
+  background: var(--accent);
+}
